@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <style>
+        input[type="text"] {
+            border: 3px solid purple
+        }
+
+        ul>li {
+            color: cyan
+        }
+
+        h1+p {
+            background-color: pink;
+        }
+
+        h1:hover {
+            color: yellow;
+            font-size: 50px;
+        }
+
+        li:nth-child(1) {
+            background-color: violet;
+        }
+
+        p:not(#i2) {
+            border: 3px dashed aquamarine;
+        }
+
+        h1::before {
+            content: "sup?";
+        }
+
+        h1::after {
+            content: ".happy happy happy!";
+        }
+
+        p::first-letter {
+            color: blueviolet;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>hello</h1>
+    <h1>Everyone</h1>
+    <p id="i1">Hey</p>
+    <p id="i2">Everyone</p>
+    <p id="i3">lets play</p>
+    <form>
+        Name : <input type="text"><br><br>
+        Age : <input type="number"><br><br>
+    </form>
+    <ul>
+        <li>joy</li>
+        <li>great</li>
+        <li>bad</li>
+        <li>good</li>
+    </ul>
+</body>
+
+</html>
